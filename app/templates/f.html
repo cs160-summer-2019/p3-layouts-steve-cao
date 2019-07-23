@@ -4,8 +4,8 @@
 
 <html>
 	<head>
-		<title></title>
-
+    <title></title>
+    
 		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="{% static '/vendors/bootstrap/css/bootstrap.css' %}" />
 		<link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}" />
@@ -15,6 +15,40 @@
 	</head>
 	<body>
 		<!-- Your layout here -->
-
+    <div class = "container">
+      <div class = "row">
+        
+      </div>
+      <div class = "row">
+        
+      </div>
+      <div class = "row">
+        
+      </div>
+    </div>
 	</body>
+  
+    <style>
+      body {
+        background-color: purple;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: start;
+        align-content: start;
+        background-color: purple;
+      }
+
+      .container div {
+        font-size: 11vw;
+        padding: .5em;
+        margin: .1em;
+        background: orange;
+        align-content: left;
+        width: 1000px;
+        height: 100%;
+      }
+    </style>
 </html>
